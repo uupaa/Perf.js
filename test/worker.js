@@ -11,11 +11,7 @@ onmessage = function(event) {
         self.console.error = function() {};
     }
 
-    importScripts("../node_modules/uupaa.clock.js/lib/Clock.js");
-    importScripts(".././test/wmtools.js");
-    importScripts("../lib/Perf.js");
-    importScripts("../release/Perf.w.min.js");
-    importScripts("./testcase.js");
+    
 
     self.postMessage({ TEST_ERROR_MESSAGE: self.TEST_ERROR_MESSAGE || "" });
 };

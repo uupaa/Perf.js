@@ -1,6 +1,6 @@
 {
   "name": "uupaa.perf.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Performance monitor",
   "url": "https://github.com/uupaa/Perf.js",
   "keywords": ["uupaa", "WebModule", "Unstable"],
@@ -34,23 +34,15 @@
       "source": ["lib/Perf.js"],
       "output": "release/Perf.b.min.js"
     },
-    "worker": {
-      "source": ["lib/Perf.js"],
-      "output": "release/Perf.w.min.js"
-    },
-    "node": {
-      "source": ["lib/Perf.js"],
-      "output": "release/Perf.n.min.js"
-    },
     "nw": {
       "source": ["lib/Perf.js"],
       "output": "release/Perf.nw.min.js"
     }
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "uupaa.clock.js": ""
   },
+  "devDependencies": {},
   "lib": "./lib/",
   "main": "./index.js",
   "author": "uupaa",

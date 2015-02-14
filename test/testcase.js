@@ -11,16 +11,15 @@ var test = new Test("Perf", {
         browser:    true,  // enable browser test.
         worker:     false, // enable worker test.
         node:       false, // enable node test.
-        nw:         false, // enable nw.js test.
+        nw:         true,  // enable nw.js test.
         button:     false, // show button.
         both:       false, // test the primary and secondary modules.
         ignoreError:false, // ignore error.
     }).add([
-        testPerf,
     ]);
 
 if (_runOnBrowser || _runOnNodeWebKit) {
-    //test.add([]);
+    test.add([testPerf]);
 } else if (_runOnWorker) {
     //test.add([]);
 } else if (_runOnNode) {
