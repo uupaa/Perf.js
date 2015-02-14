@@ -1,4 +1,4 @@
-# Perf.js [![Build Status](https://travis-ci.org/uupaa/Perf.js.png)](http://travis-ci.org/uupaa/Perf.js)
+# Perf.js
 
 [![npm](https://nodei.co/npm/uupaa.perf.js.png?downloads=true&stars=true)](https://nodei.co/npm/uupaa.perf.js/)
 
