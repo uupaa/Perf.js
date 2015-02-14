@@ -11,11 +11,19 @@ Performance monitor
     - [Slide](http://uupaa.github.io/Slide/slide/WebModule/index.html)
     - [Development](https://github.com/uupaa/WebModule/wiki/Development)
 
-## Run on
+## Features
+
+![](http://gyazo.com/db349a1f851aee00d139764a43906b39.png)
+
+- Monitoring fps and ms.
+
+## Usage
 
 ### Browser
 
 ```js
+<script src="node_modules/uupaa.pagevisibilityevent.js/lib/PageVisibilityEvent.js"></script>
+<script src="node_modules/uupaa.clock.js/lib/Clock.js"></script>
 <script src="lib/Perf.js"></script>
 <script>
 var options = { parentNode: document.body, x: 100, y: 100, opacity: 0.7 };
