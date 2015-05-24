@@ -2,7 +2,7 @@
 
 [![npm](https://nodei.co/npm/uupaa.perf.js.png?downloads=true&stars=true)](https://nodei.co/npm/uupaa.perf.js/)
 
-Performance monitor
+Performance monitor.
 
 ## Document
 
@@ -16,8 +16,6 @@ Performance monitor
 ![](http://gyazo.com/db349a1f851aee00d139764a43906b39.png)
 
 - Monitoring fps and ms.
-
-## Usage
 
 ### Browser
 
