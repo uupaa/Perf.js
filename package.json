@@ -1,6 +1,6 @@
 {
   "name":           "uupaa.perf.js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Performance monitor",
   "url":            "https://github.com/uupaa/Perf.js",
   "keywords":       ["performance", "monitor", "fps", "uupaa", "WebModule"],
