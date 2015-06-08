@@ -22,6 +22,7 @@ var test = new Test("Perf", {
 if (IN_BROWSER || IN_NW) {
     test.add([
         // browser and node-webkit test
+        testPerf,
     ]);
 } else if (IN_WORKER) {
     test.add([
@@ -36,7 +37,7 @@ if (IN_BROWSER || IN_NW) {
 // --- test cases ------------------------------------------
 function testPerf(test, pass, miss) {
 
-    var perf = new Perf({ x: 200, y: 200 });
+    var perf = new WebModule.Perf({ x: 200, y: 200 });
 
     setInterval(function() {
         perf.a;
